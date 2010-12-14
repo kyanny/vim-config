@@ -4,3 +4,6 @@
 [submodule "bundle/vim-ref"]
 	path = bundle/vim-ref
 	url = git://github.com/thinca/vim-ref.git
+[submodule "bundle/unite"]
+	path = bundle/unite
+	url = git://github.com/Shougo/unite.vim.git
