@@ -123,12 +123,12 @@ nmap <C-Z> <Plug>(vimshell_create)
 nnoremap    [unite]   <Nop>
 nmap    <Leader>, [unite]
 
-nnoremap <silent> [unite]c  :<C-u>UniteWithCurrentDir -buffer-name=files buffer file_mru bookmark file<CR>
-nnoremap <silent> [unite]b  :<C-u>UniteWithBufferDir -buffer-name=files -prompt=%\  buffer file_mru bookmark file<CR>
-nnoremap <silent> [unite]r  :<C-u>Unite -buffer-name=register register<CR>
-nnoremap <silent> [unite]o  :<C-u>Unite outline<CR>
-nnoremap  [unite]f  :<C-u>Unite source<CR>
-nnoremap  [unite]l  :<C-u>Unite buffer<CR>
+nnoremap <silent> [unite]b :<C-u>Unite buffer bookmark<CR>
+nnoremap <silent> [unite]d :<C-u>Unite file file_mru<CR>
+" nnoremap <silent> [unite]c  :<C-u>UniteWithCurrentDir -buffer-name=files buffer file_mru bookmark file<CR>
+" nnoremap <silent> [unite]b  :<C-u>UniteWithBufferDir -buffer-name=files -prompt=%\  buffer file_mru bookmark file<CR>
+" nnoremap <silent> [unite]r  :<C-u>Unite -buffer-name=register register<CR>
+" nnoremap <silent> [unite]o  :<C-u>Unite outline<CR>
 
 autocmd FileType unite call s:unite_my_settings()
 function! s:unite_my_settings()"{{{
