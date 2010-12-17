@@ -7,6 +7,7 @@ syntax on
 filetype on
 filetype plugin on
 filetype indent on
+set hidden
 set cindent
 set expandtab
 set softtabstop=4
