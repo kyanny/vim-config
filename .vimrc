@@ -34,8 +34,6 @@ nmap <Leader>. :source<Space>~/.vimrc<CR>
 " :cnoremap <Esc><C-B> <S-Left>
 " :cnoremap <Esc><C-F> <S-Right>
 
-" VimShell
-
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 " Disable AutoComplPop.
@@ -111,12 +109,6 @@ let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 
 " ===============================================
-" vimshel
-let g:vimshell_prompt = $USER."$ "
-let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
-let g:vimshell_right_prompt = 'vimshell#vcs#info("(%s)-[%b]", "(%s)-[%b|%a]")'
-let g:vimshell_enable_smart_case = 1
-nmap <C-Z> <Plug>(vimshell_create)
 
 " ===============================================
 " Unite

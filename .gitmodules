@@ -13,9 +13,3 @@
 [submodule "bundle/vim-quickrun"]
 	path = bundle/vim-quickrun
 	url = git://github.com/thinca/vim-quickrun.git
-[submodule "bundle/vimshell"]
-	path = bundle/vimshell
-	url = git://github.com/Shougo/vimshell.git
-[submodule "bundle/vimproc"]
-	path = bundle/vimproc
-	url = git://github.com/Shougo/vimproc.git
